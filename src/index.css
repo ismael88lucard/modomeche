@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/* Esto fuerza el fondo negro aunque Tailwind falle un segundo */
+:root {
+  background-color: #050505;
+  color-scheme: dark;
+}
+body {
+  background-color: #050505;
+  color: white;
+  margin: 0;
+}
